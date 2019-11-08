@@ -140,10 +140,12 @@ a {
 }
 
 .profile-picture-img{
-  display: block;
+  display:inline-block;
   margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  margin-right:3.8%;
+  margin-top:1.9%;
+  width:35%;
+  float:right;
 
 }
 .portfolio-container{
@@ -176,9 +178,11 @@ float:left;
   margin-left: 2.5%;
 }
 .intro-paragraph{
-  width:80%;
-  text-align: center;
-  margin:20px 75px 20px 75px;
+  width:50%;
+  text-align:left;
+  margin:20px 20px 20px 20px;
+  display: inline-block;
+  font-size:1.2rem;
 
 }
 
@@ -211,8 +215,8 @@ text-align:left;
 display:inline-block;
 float:left;
 width:40%;
-line-height: 4vh;
-margin:35px 0 35px 25px;
+line-height: 3vh;
+margin:25px 0 35px 25px;
 font-size: 1.4rem;
 margin-left: 2.4%;
 }
